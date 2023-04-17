@@ -28,6 +28,8 @@
 	sample_task：采样，实例化后对象的随机选择数据。且可以重复调用该方法。具体细节详见python官网 return self的用法。
 	其他函数：seed实例化np.random.RandomState
 
+
+
 	2.  ClassDataset，定义类别数据集的基类。
 	继承：无。
 	重要参数：
@@ -38,6 +40,8 @@
 	__getitem__：继承该类时需要实现的方法。
 	num_classes：通过property装饰，将该方法变为类属性，同样继承该类时需要实现该方法。表示类别的数量。
 	__len__：返回类别总数量。
+
+
 
 
 	3.  CombinationMetaDataset，组合元数据集基类。
