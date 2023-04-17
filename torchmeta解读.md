@@ -14,7 +14,7 @@
 	5）BatchMetaDataLoader() 实现元批次数据集加载。
 	6）上述中依赖模块解释。
 	以下分别展开进行概述。
-  1.  MetaDataset元数据集的基类
+ 	1.	MetaDataset元数据集的基类
 	继承：无继承
 	重要参数：
 	meta_train=False, meta_val=False, meta_test=False,meta_split=None
